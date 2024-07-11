@@ -1,0 +1,66 @@
+.modal {
+    background: rgba(0, 0, 0, 0.50);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    &__box {
+        background: white;
+        max-width: 700px;
+        height: 650px;
+        overflow-y: auto;
+        width: 100%;
+        padding: 20px 40px;
+        position: relative;
+        background: aliceblue;
+        &_close {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        &_title {
+            text-align: center;
+        }
+        &_block {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        &_item {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            &_left {
+                width: 50%;
+                &_title {
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #000;
+                }
+                &_text {
+                    margin-top: 15px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #000;
+                }
+            }
+            &_right {
+                width: 50%;
+                &_img {
+                    width: 100%;
+                    height: 150px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "Meta": {
+        "Home": {
+            "title": "O'zbekistonda tangalar Numizmatikasi",
+            "description": "O'zbekistonda tangalar Numizmatikasi"
+        }
+      },
+    "Header": {
+        "logoText": "O'zbekistonda numizmatika",
+        "main": "Bosh Sahifa",
+        "coins": "O'zbekiston tangalari",
+        "market": "Do'kon",
+        "publicates": "E’lon qilish",
+        "contact": "Bizning kontaktlarimiz"
+    },
+    "Content": {
+        "title": "Nominal qiymati 1000 so'm bo'lgan yangi tanga",
+        "text": "2022-yil 26-dekabrdan O‘zbekistonda 1000 so‘mlik yangi tanga muomalaga chiqariladi.",
+        "link": "Batafsil ma'lumot"
+   },
+   "Ourcontacts": {
+    "title": "Bizning kontaktlarimiz"
+   },
+   "Form": {
+    "title": "Biz bilan bog'lanish",
+    "name": "Sizning ismingiz",
+    "number": "Sizning raqamingiz",
+    "email": "Sizning email",
+    "text": "Введите сообщение",
+    "btn": "Yuborish"
+    },
+   "Shop": {
+    "title": "Dokon"
+   },
+   "Coins": {
+    "title": "O'zbekiston tangalari"
+   },
+   "Publications": {
+    "title": "Joylash публикаций"
+   },
+   "Time": {
+    
+    "title": "Har kuni, soat 9:00 dan 20:00 gacha"
+   },
+   "Soon": {
+    "title": "Tez orada"
+   }
+}
